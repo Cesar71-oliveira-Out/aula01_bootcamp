@@ -34,3 +34,6 @@ print(int(input("Digite um valor: ")) + int(input("Digite outro valor: ")))
 # Boolean True or False
 # Para ver o tipo da variável use o comando type > print(type(nome_variável))
 
+# Isto é uma constant, não o valor não é alterado na execução 
+SENHA_AWS = 32323
+print(SENHA_AWS)
