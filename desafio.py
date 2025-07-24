@@ -1,24 +1,39 @@
-CONSTANT_BONUS = 1000
+# Comandos Print
 
-<<<<<<< HEAD
-print("Teste PULL")
+# print("Bora primeira aula")
+print(3)
+print(3 + 4)
+print("Olá" + " " + "Turma")
 
-=======
->>>>>>> origin/main
-# Digite o nome
-# Digite o salário
-# Digite percentual do Bônus
-# Cálcule o valor do Bônus
+# Inputs
 
-nome = input("Digite seu nome: ")
-salario = float(input("Digite seu salário: "))
-bonus = float(input("Digite o percentual do Bônus: "))
-valor_do_bonus = CONSTANT_BONUS + salario * bonus
+input("Digite seu nome: ")
 
-# Para print de variáveis deve-se usar o f print(f...)
-print(f"Você {nome} possui o bônus no valor de {valor_do_bonus}")
-<<<<<<< HEAD
+# Print com Input
 
-# Só um teste pra ver se o git tá funcionando para a conta Outlook
-=======
->>>>>>> origin/main
+print(input("Digite seu nome: "))
+
+print("Olá, " + input("Digite seu nome: ") + "!")
+
+# Programa pra retornar números de caracteres
+
+print(len(input("Digite o seu nome: ")))
+
+# Programa para solicitar e somar dois valores
+
+print(input("Digite um valor: ") + input("Digite outro valor: "))
+
+# Fazendo cast, que é definir o tipo do input
+
+print(int(input("Digite um valor: ")) + int(input("Digite outro valor: ")))
+
+# Variáveis
+# int 8
+# float 5.2
+# string "Nome"
+# Boolean True or False
+# Para ver o tipo da variável use o comando type > print(type(nome_variável))
+
+# Isto é uma constant, não o valor não é alterado na execução 
+SENHA_AWS = 32323
+print(SENHA_AWS)
