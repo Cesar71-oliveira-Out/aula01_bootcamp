@@ -1,7 +1,7 @@
 # Comandos Print
 
-print("Bora primeira aula")
-print(3)
+# print("Bora primeira aula")
+print(555555555)
 print(3 + 4)
 print("Olá" + " " + "Turma")
 
